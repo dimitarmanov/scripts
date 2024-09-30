@@ -28,7 +28,3 @@ for team in team_slugs:
 
 unique_members = list(all_members)
 print(unique_members)
-
-# member_names = [member['login'] for member in members]
-# print(member_names)
-# ! repo_names = [repo['name'] for repo in repos]
