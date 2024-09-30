@@ -9,6 +9,8 @@ Inside the `.env` file, add the following lines, replacing the placeholders with
 
 - `GITHUB_ORG`: The name of your GitHub organization.
 - `GITHUB_TOKEN`: A GitHub Personal Access Token (PAT) with appropriate scopes.
+- `TARGET_TEAM_SLUG`: Target team which to loop through
+- `FILTER`: Which usernames to remove from the list
 
 3. Ensure Correct Permissions for `GITHUB_TOKEN`
 
