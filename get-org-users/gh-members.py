@@ -11,9 +11,8 @@ load_dotenv()
 GITHUB_TOKEN = os.getenv('GITHUB_TOKEN')
 GITHUB_ORG = os.getenv('GITHUB_ORG')
 TARGET_TEAM_SLUG = os.getenv('TARGET_TEAM_SLUG')  # The team slug for which to list all members and subteams
-FILTER = os.getenv('FILTER')
 
-pattern = re.compile(r".{FILTER}")
+pattern = re.compile(r".$<FILTER>")
 
 # Bypass SSL verification
 ssl._create_default_https_context = ssl._create_unverified_context
